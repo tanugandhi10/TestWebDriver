@@ -28,6 +28,7 @@ public class LoginTest {
 		driver.findElement(By.xpath("/html/body/div[1]/div/div[1]/div[1]/div[1]/form/div[1]/input")).sendKeys("gandhitanu");
 		driver.findElement(By.xpath("/html/body/div[1]/div/div[1]/div[1]/div[1]/form/div[2]/input")).sendKeys("test");
 		driver.findElement(By.xpath("/html/body/div[1]/div/div[1]/div[1]/div[1]/form/input[1]")).click();
+		//testing updations
 	}
 	
 	@AfterSuite
